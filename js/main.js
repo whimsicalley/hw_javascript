@@ -10,3 +10,9 @@ var presidents = [
 ];
 
 console.log(presidents[2].firstName + ' ' + presidents[2].lastName);
+
+function howdy() {
+    console.log('Alley Manalio says hello!');
+}
+
+howdy();
