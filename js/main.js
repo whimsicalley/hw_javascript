@@ -30,3 +30,13 @@ var numba = function (string) {
 numba('7');
 numba('seventy');
 numba('university');
+
+function write(favMovie) {
+    console.log(favMovie + ' is a fantastic movie.');
+}
+
+function inception(display, favMovie) {
+    display(favMovie);
+}
+
+inception(write, 'The Lion King');
